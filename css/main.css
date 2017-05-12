@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/RobotoSlab-Regular.ttf');
+}
+@font-face {
+	font-family: 'Raleway'
+	src: url('../fonts/Raleway 300.ttf');
+}
+@font-face {
+	font-family: 'Roboto-Monospace';
+	src: url('../fonts/Roboto Mono 300.ttf');
+}
+body {
+	margin:2.5em auto;	/* 40px/16=2.5em */
+	max-width:40.625em;	/* 650px/16=40.625em */
+	line-height:1.6;
+	font-size:1.125em;	/* 18px/16=1.125em */
+	color:#444;
+	padding:0
+	0.625em
+	}
+h1,h2,h3
+{
+	line-height:0.625em /* 10px/16=0.625em */
+	font-family: 'Roboto', serif ;
+	text-align: center;
+}	
+.code {
+	font-family: 'Roboto-Monospace', monospace;
+	text-indent: 50px;
+}
+img {
+	left: 50%
+	margin-right: -50%;
+	transform: translate(-50%, -50%)
+}
+* {
+	font-family: 'Raleway', sans-serif;
+}
