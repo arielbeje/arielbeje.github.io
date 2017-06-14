@@ -1,14 +1,14 @@
 @font-face {
-	font-family: 'Roboto';
-	src: url('../fonts/RobotoSlab-Regular.ttf');
+	font-family: 'Merriweather';
+	src: url('../fonts/Merriweather-Regular.ttf');
 }
 @font-face {
 	font-family: 'Raleway'
 	src: url('../fonts/Raleway 300.ttf');
 }
 @font-face {
-	font-family: 'Roboto-Monospace';
-	src: url('../fonts/Roboto Mono 300.ttf');
+	font-family: 'SourceCodePro';
+	src: url('../fonts/SourceCodePro-Regular');
 }
 body {
 	margin:2.5em auto;	/* 40px/16=2.5em */
@@ -21,18 +21,26 @@ body {
 	}
 h1,h2,h3
 {
-	line-height:0.625em /* 10px/16=0.625em */
-	font-family: 'Roboto', serif ;
+	font-family: 'Merriweather', serif ;
 	text-align: center;
-}	
-.code {
-	font-family: 'Roboto-Monospace', monospace;
+	/* line-height:0.625em /* 10px/16=0.625em */
+
+}
+code {
+	font-family: 'SoruceCodePro', monospace;
 	text-indent: 50px;
 }
-img {
+/*img {
 	left: 50%
 	margin-right: -50%;
 	transform: translate(-50%, -50%)
+}*/
+titletilt {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+}
+strong {
+	font-family: 'Merriweather', serif;
 }
 * {
 	font-family: 'Raleway', sans-serif;
