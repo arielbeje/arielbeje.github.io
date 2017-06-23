@@ -1,22 +1,10 @@
-@font-face {
-	font-family: 'Merriweather';
-	src: url('../fonts/Merriweather-Regular.ttf');
-}
-@font-face {
-	font-family: 'Raleway'
-	src: url('../fonts/Raleway 300.ttf');
-}
-@font-face {
-	font-family: 'SourceCodePro';
-	src: url('../fonts/SourceCodePro-Regular');
-}
 body {
-	margin:2.5em auto;	/* 40px/16=2.5em */
-	max-width:40.625em;	/* 650px/16=40.625em */
-	line-height:1.6;
-	font-size:1.125em;	/* 18px/16=1.125em */
-	color:#444;
-	padding:0
+	margin: 2.5em auto;	/* 40px/16=2.5em */
+	max-width: 40.625em;	/* 650px/16=40.625em */
+	line-height: 1.7em;
+	font-size: 1.4em;
+	color: #444;
+	padding: 0
 	0.625em
 	}
 h1,h2,h3
@@ -26,9 +14,8 @@ h1,h2,h3
 	/* line-height:0.625em /* 10px/16=0.625em */
 
 }
-code {
-	font-family: 'SoruceCodePro', monospace;
-	text-indent: 50px;
+p {
+	white-space: pre-wrap;
 }
 /*img {
 	left: 50%
@@ -39,8 +26,66 @@ titletilt {
 	font-family: 'Merriweather', serif;
 	font-style: italic;
 }
+:lang(he) {
+	font-family: 'Assistant', sans-serif;
+	text-align: right;
+	direction: rtl;
+}
+blockquote {
+	width: 80%;
+	font-size: 1.4em;
+	font-style: italic;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.5em;
+}
+blockquote>p{
+	font-family: 'Libre Baskerville', oblique;
+}
+blockquote:after, blockquote:before {
+	font-size: 4em;
+	color:#795548;
+	display: block;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+blockquote:before {
+	padding-top: 1.8rem;
+	content: '\201C';
+	padding-bottom: 0.0001em;
+}
+blockquote:after {
+	content: '\201D';
+	padding-top: 0.5em;
+}
+.bottom_logo {
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	margin: auto;
+	text-align: center;
+	color: inherit;
+	text-decoration:none
+}
+footer{
+	padding-top: 2em;
+}
+pre {
+	font-family: 'Soruce Code Pro', monospace;
+	margin-bottom: 0.625em; /* 10px/16 = 0.625em */
+	max-height: 37.5em; /* 600px/16 = 37.5em */
+	padding: 0.3125em; /* 5px/16 = 0.3125em */
+	width: auto;
+	overflow: auto;
+	font-size: 0.7em;
+	line-height: 1.3em;
+}
 strong {
 	font-family: 'Merriweather', serif;
+}
+i {
+	font-family: inherit;
 }
 * {
 	font-family: 'Raleway', sans-serif;
